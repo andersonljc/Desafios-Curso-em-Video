@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+    background-color: darkgray;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-vTD4Y_SysgipUJIawWLMtnHWlwLcqizR1Q&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace;
+    margin-top: 50px;
+    }
+    main{
+    font-size: 1.5em;
+    padding: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgba(218, 218, 218, 0.767);
+    border-radius: 8px;
+    height: 400px;
+    min-width: 320px;
+    max-width: 600px;
+    margin: auto;
+    }
+    img{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;         
+    border-radius: 50%;
+    }
+    h1,h2 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(78, 75, 75);
+    }
+    p{
+    text-align: center;
+    text-align: justify;
+    font-weight: bold;
+    }
+    
+    a{
+    text-decoration: none;
+    }
+    footer{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.534);
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: bold;
+    }
+    
+    .btn-verde{
+    border-radius: 12px; 
+    font-weight: bold;
+    border: 0;
+    padding: 8px;
+    width: 130px;
+    height: 50px;
+    display: block;
+    margin: 8px ;
+    background-color: rgba(189, 221, 156, 0.185);
+    position: absolute; 
+    left: 19%;
+    bottom: 27%;
+    font-size: 12px;
+    
+    }
+    
+    .btn-verde:hover{
+    background-color: green;           
+    
+    }
+    .btn-amarelo{
+    border-radius: 12px; 
+    font-weight: bold;
+    border: 0;
+    padding: 8px;
+    width: 130px;
+    height: 50px;
+    display: block;
+    margin: 8px ;
+    background-color: rgba(189, 221, 156, 0.185);
+    position: absolute; 
+    right: 19%;
+    bottom: 27%;
+    font-size: 12px;
+    
+    }
+    .btn-amarelo:hover{
+    background-color: yellow;
+    }
+    h1{text-align: center;}
+    footer{
+    text-align: center;
+    background-color: rgba(240, 255, 255, 0.226);
+    width: 400px;
+    margin: auto;
+    height: 80px;
+    padding-top: 15px;
+    margin-top: 3px;
+    }
+    #btn-voltar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    margin-top: 10px;
+    padding-bottom: 5px;
+    
+    }
